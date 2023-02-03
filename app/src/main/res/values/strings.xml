@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My First Application</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="relevance">Relevance</string>
+    <string name="popularity">Popularity</string>
+    <string name="newest">Newest</string>
+
+    <string name="generic_error">Sorry! Something went wrong</string>
+</resources>

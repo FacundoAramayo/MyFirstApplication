@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:layout_margin="@dimen/margin_horizontal_normal"
+        android:background="@drawable/rounded_box"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/sort_by_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/search_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="@dimen/margin_horizontal_normal"
+        tools:text="Relevancia"
+        />
+
+    <TextView
+        android:id="@+id/sort_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/sort_by_content"
+        app:layout_constraintTop_toTopOf="@id/sort_by_content"
+        android:layout_marginEnd="@dimen/margin_horizontal_small"
+        android:textStyle="bold"
+        android:text="Ordenar por:"
+        />
+
+    <TextView
+        android:id="@+id/from_date_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/sort_by"
+        app:layout_constraintTop_toTopOf="@id/sort_by"
+        android:layout_marginEnd="@dimen/margin_horizontal_small"
+        tools:text="2023-02-02"/>
+
+    <TextView
+        android:id="@+id/from_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/from_date_content"
+        app:layout_constraintTop_toTopOf="@id/from_date_content"
+        android:text="Desde:"
+        android:textStyle="bold"
+        android:layout_marginEnd="@dimen/margin_horizontal_small"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

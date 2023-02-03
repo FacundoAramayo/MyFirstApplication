@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="TextViews"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:layout_marginTop="@dimen/margin_vertical_normal"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="@string/hello_world"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:layout_marginTop="@dimen/margin_vertical_normal"
+                android:text="Texto modificado desde el código:"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:layout_marginTop="@dimen/margin_vertical_normal"
+                android:text="Cambiar tamaño:"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="Texto de 14sp"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="Texto de 24sp"
+                android:textSize="24sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="Texto de 34sp"
+                android:textSize="34sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:layout_marginTop="@dimen/margin_vertical_normal"
+                android:text="Otro color:"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="Texto en Magenta"
+                android:textColor="@color/magenta"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:layout_marginTop="@dimen/margin_vertical_normal"
+                android:text="Otros estilos:"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="bold"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="italic"
+                android:textStyle="italic"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="bold | italic"
+                android:textStyle="bold|italic"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:layout_marginTop="@dimen/margin_vertical_normal"
+                android:text="Otra fuente:"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="Fuente sans"
+                android:typeface="sans"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="Fuente monospace"
+                android:typeface="monospace"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="Fuente serif"
+                android:typeface="serif"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:text="Fuente personalizada"
+                android:fontFamily="@font/raleway"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:layout_marginTop="@dimen/margin_vertical_normal"
+                android:text="Con links:"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:autoLink="web"
+                android:text="https://developer.android.com/"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:autoLink="email"
+                android:textColorLink="@color/magenta"
+                android:text="faramayocontacto@gmail.com"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal_small"
+                android:layout_marginEnd="@dimen/margin_horizontal_small"
+                android:layout_marginTop="@dimen/margin_vertical_normal"
+                android:text="Creado programáticamente:"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</FrameLayout>
